@@ -1,0 +1,44 @@
+@import "colours";
+body { font-family: 'Montserrat', sans-serif;}
+h1,h2,h4,h5 { margin: 0;}
+h1 {
+	font-size: 60px;
+	font-weight: 500;
+	color: $white;
+}
+h2 {
+	font-size: 38px;
+	font-weight: bold;
+	color: $red;
+}
+h3 {
+	font-size: 33px;
+	font-weight: bold;
+	color: $black;
+}
+h4 {
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: $text-grey;
+}
+h5 {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: $text-grey;
+}
+p {
+	color: $text-grey;
+	margin: 0;
+}
+nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.description p {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: $red;
+	text-decoration: underline;
+}
